@@ -1,7 +1,9 @@
 # GMS Model Importer for Blender
 
 Tool designed to import GMS files into Blender.
+
 Based on the MaxScript by Pionome and modified for Blender by Dexxtrip/BonQ
+
 
 # File Format Support
 

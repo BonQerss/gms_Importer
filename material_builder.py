@@ -35,9 +35,7 @@ def create_material(material_data, model, gms_path, create_nodes=True, import_te
     utils.log_info(f"Creating material: {mat_name}")
     mat = bpy.data.materials.new(name=mat_name)
     
-    # FIXED: Disable backface culling so both sides are visible
     mat.use_backface_culling = False
-    # Enable show_transparent_back so backfaces are rendered
     mat.show_transparent_back = False
     mat.blend_method = 'OPAQUE'  # Force opaque rendering unless we add alpha textures
     
