@@ -26,9 +26,13 @@ This tool depends on Gimconv which is not shipped with this Github.
 # Issues
 
 Armatures are not being imported properly yet. Gotta fix that when I'm not coping through covid tearing up my insides.
+
 Meshes for P4G don't import fully correctly due to the align to the floor function, need to figure out how to read the coordinates better.
+
 Some materials for P4G don't work, they add a white haze over the model.
+
 No animations, need to fix the first three issues before I add animations.
+
 
 # Credits
 
